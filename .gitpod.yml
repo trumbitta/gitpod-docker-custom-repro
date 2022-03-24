@@ -1,4 +1,4 @@
-# Learn more about this file at https://www.gitpod.io/docs/references/gitpod-yml
+image: cypress/browsers:node12.19.0-chrome86-ff82
 tasks:
   - before: |
       npm i -g nx commitizen
